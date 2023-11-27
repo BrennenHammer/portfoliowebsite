@@ -230,3 +230,36 @@ transform: translateX(-50%);
 .nextprev-btn-back{
     left: 1.5rem;
 }
+
+.services-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.services-box .services-content{
+    flex: 1 1 10rem;
+    border: var(--border);
+    border-radius: .5rem;
+    padding: .8rem .5rem 1.1rem;
+    text-align: center;
+    transition: .3sec ease;
+}
+.services-box .services-content:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.services-content i{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+.services-content h3{
+    font-size: .9rem;
+}
+.services-content p{
+    margin: .2rem 0 .8 rem;
+}
+.services-content .btn{
+    width: 7.3rem;
+    height: 2.3rem;
+}
