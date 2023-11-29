@@ -82,8 +82,9 @@ body {
   transform: rotateY(180deg);
 }
 p{
-    font-size: 12px;
+    font-size: 14px;
 }
+
 
 
 .book {
@@ -116,14 +117,14 @@ p{
 }
 
 .profile-page img {
-  max-width: 180px;
+  max-width: 140px;
   border-radius: 50%;
   border: .25rem solid var(--main-color);
   margin-bottom: .8rem;
 }
 
 .profile-page h1 {
-  font-size: 2.7rem;
+  font-size: 2.4rem;
   line-height: 1;
 }
 
@@ -179,6 +180,24 @@ p{
   margin: 0 1rem;
   transition: .5s;
 }
+.btn1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 9.5rem;
+    height: 3rem;
+    background: var(--main-color);
+    border: var(--border);
+    border-radius: .3rem;
+    font-size: .9rem;
+    color: var(--white-color);
+    font-weight: 500;
+    margin: 0 1rem;
+    transition: .5s;
+  }
+  .contact-me{
+    font-size: .9rem;
+  }
 
 .btn:hover {
   background: transparent;
