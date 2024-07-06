@@ -271,6 +271,9 @@ p{
   background: var(--main-color);
   border-radius: 50%;
 }
+.imgofme{
+border-radius: 50%;
+}
 
 .workeduc-content .year {
   color: var(--main-color);
